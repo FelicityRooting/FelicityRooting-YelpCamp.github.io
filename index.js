@@ -13,7 +13,7 @@ var commentRoutes         = require("./routes/comments"),
     campgroundsRoutes     = require("./routes/campgrounds"),
     indexRoutes           = require("./routes/index");
 
-
+//test
 mongoose.connect("mongodb://localhost/yelp_camp_2");
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
